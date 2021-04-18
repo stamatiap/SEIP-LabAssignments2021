@@ -11,6 +11,12 @@ import java.io.FileNotFoundException;
 import java.util.Scanner;
 import java.util.ArrayList;
 
+/***
+ * 
+ * @author stamatiap 
+ * 		The purpose of this class is to generate a Histogram using
+ *      the JFreeChart XYLine chart. 
+ */
 public class HistogramGenerator {
 	/***
 	 * Receives a single dimension Integer array. From this array the dataset
@@ -61,6 +67,12 @@ public class HistogramGenerator {
 		frame.setVisible(true);
 	}
 	
+	/***
+	 * Receives a file and reads each line which contains an integer. From these integers 
+	 * an Integer Array List is created and returned. 
+	 * 
+	 * @param file File containing the grades
+	 */
 	public ArrayList<Integer> readFile(File file) {
 		ArrayList<Integer> fileData = new ArrayList<Integer>();
 		// read the file
