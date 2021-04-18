@@ -6,8 +6,8 @@
     <version>0.0.1-SNAPSHOT</version>
   </parent>
   <artifactId>gradeshistogram</artifactId>
-  <name>maven-module</name>
-  <description>this module creates a grades histagram</description>
+  <name>grades-histogram</name>
+  <description>this module creates a histogram from students' grades</description>
   
   <dependencies>
     <!-- https://mvnrepository.com/artifact/org.jfree/jfreechart -->
