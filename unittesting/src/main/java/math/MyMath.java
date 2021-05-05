@@ -23,4 +23,21 @@ public class MyMath {
 		 return nFactorial;
 	 }
 
+	/**
+	 * This method receives an integer and checks if
+	 * it's a prime number
+	 * @param n integer
+	 */
+	 public boolean isPrime(int n) {
+		if (n < 2) {
+			throw new IllegalArgumentException("number must be >= 2");
+		} else {
+		   for (int i = 2; i < n; i++) {
+			   if (n % i == 0) {
+				   return false;
+			   }
+		   }
+		   return true;  
+		}
+	}
 }
