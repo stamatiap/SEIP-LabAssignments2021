@@ -7,10 +7,9 @@ jdk:
 branches:
   only:
   - main
-  - developemnt
+  - development
 
 before_script:
-  - cd project
   - ls -la
 
 script:
