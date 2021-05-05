@@ -1,0 +1,20 @@
+language: java
+
+jdk:
+  - openjdk11
+  - oraclejdk11
+
+branches:
+  only:
+  - main
+  - developemnt
+
+before_script:
+  - cd project
+  - ls -la
+
+script:
+  - mvn clean package
+
+after_success:
+  - echo "Process terminated successfully"
