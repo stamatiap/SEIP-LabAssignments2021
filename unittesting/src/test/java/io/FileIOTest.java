@@ -39,11 +39,11 @@ public class FileIOTest {
 	}
 
 	@Test
-	public void testReadFileContainsInvalidEntries() {
-		String validInputFilepath = resourcesPath.concat("invalid_file.txt");
-		thrown.expect(IllegalArgumentException.class);
-		thrown.expectMessage("File must contain only integers");
-		fileio.readFile(validInputFilepath);
+		public void testReadFileContainsInvalidEntries() {
+			int[] expectedNumbers = new int[] {1, 5};
+			String validInputFilepath = resourcesPath.concat("invalid_file.txt");
+
+			Assert.assertArrayEquals(expectedNumbers, fileio.readFile(validInputFilepath));
 	}
 
 }
