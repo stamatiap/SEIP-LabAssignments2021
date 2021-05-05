@@ -24,4 +24,11 @@ public class MyMathTest {
 		mm.factorial(21);
 	}
 
+	@Test
+	public void test_isPrime_exception() {
+		thrown.expect(IllegalArgumentException.class);
+		thrown.expectMessage("number must be >= 2");
+		mm.isPrime(0);
+	}
+
 }
