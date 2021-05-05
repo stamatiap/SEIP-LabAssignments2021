@@ -8,5 +8,6 @@
   <description>lab assignments for SEIP class</description>
   <modules>
   	<module>gradeshistogram</module>
+    <module>unittesting</module>
   </modules>
 </project>
