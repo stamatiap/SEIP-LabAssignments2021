@@ -18,7 +18,7 @@ public class ArrayOperations {
 		}
 		
 		int [] selectedNums = new int[selectedNumbers.size()];
-		for (int i = 0; i <= selectedNumbers.size(); i++) {
+		for (int i = 0; i <= selectedNumbers.size() - 1; i++) {
 			selectedNums[i] = selectedNumbers.get(i);
 		}
 		
