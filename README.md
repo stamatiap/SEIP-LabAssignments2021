@@ -1,4 +1,6 @@
 # SEIP-LabAssignments2021
+[![Build Status](https://travis-ci.com/stamatiap/SEIP-LabAssignments2021.svg?token=2aqzPpqSCXqq4PD3axyN&branch=development)](https://travis-ci.com/stamatiap/SEIP-LabAssignments2021)
+
 This repository was created to store all the lab assignments for the Software Engineering in Practice class.
 
 ## Prerequisites
