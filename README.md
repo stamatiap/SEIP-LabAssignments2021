@@ -1,5 +1,6 @@
 # SEIP-LabAssignments2021
 [![Build Status](https://travis-ci.com/stamatiap/SEIP-LabAssignments2021.svg?token=2aqzPpqSCXqq4PD3axyN&branch=development)](https://travis-ci.com/stamatiap/SEIP-LabAssignments2021)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 This repository was created to store all the lab assignments for the Software Engineering in Practice class.
 
