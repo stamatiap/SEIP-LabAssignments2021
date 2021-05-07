@@ -23,11 +23,11 @@ public class ArrayOperationsTest {
 	
 	@Test
 	public void testReverseArrayNumbersMocking() {
-		// Mock the MyMath dependency
+		// Mock MyMath and FileIO
 		MyMath mm = mock(MyMath.class);
 		FileIO fileio = mock(FileIO.class);
 		
-		// Pre-define the results of the readFile calls
+		// Pre-define the results of the readFile call
 		when(fileio.readFile("src/test/resources/mocking_test.txt")).thenReturn(new int[] {3,6,14,47});
 		
 		// Pre-define the results of the isPrime calls
