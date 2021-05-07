@@ -3,6 +3,9 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 This repository was created to store all the lab assignments for the Software Engineering in Practice class.
+### Projects
+- [Grades Histogram Project](gradeshistogram/)
+- [Unit Testing Project](unittesting/)
 
 ## Prerequisites
 
