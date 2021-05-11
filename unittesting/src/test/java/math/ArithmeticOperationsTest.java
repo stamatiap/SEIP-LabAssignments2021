@@ -34,6 +34,12 @@ public class ArithmeticOperationsTest {
 		thrown.expectMessage("x & y should be >= 0");
 		ao.multiply(4, -2);
 	}
+
+	@Test
+	public void test_multiply_getY_zero() {
+		thrown.expect(ArithmeticException.class);
+		ao.multiply(4, 0);
+	}
 	
 	@Test
 	public void test_multiply_getX_BigInteger() {
