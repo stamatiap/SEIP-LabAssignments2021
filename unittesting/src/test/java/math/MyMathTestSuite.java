@@ -9,7 +9,7 @@ import org.junit.runners.Suite;
  * @author stamatiap 
  */
 @RunWith(Suite.class)
-@Suite.SuiteClasses({MyMathTest.class, MyMathFactorialTest.class})
+@Suite.SuiteClasses({MyMathTest.class, MyMathFactorialTest.class, MyMathIsPrimeTest.class})
 public class MyMathTestSuite {
 
 }
