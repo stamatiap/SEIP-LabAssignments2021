@@ -32,7 +32,7 @@ public class MyMathIsPrimeTest {
 	 */
 	@Parameters
 	public static Collection<Object[]> data() {
-		Object[][] data = new Object[][]{{3,true},{6,false},{20,false},{23,true}};
+		Object[][] data = new Object[][]{{2,true},{3,true},{6,false},{20,false},{23,true}};
 			
 		return Arrays.asList(data);
 	}
