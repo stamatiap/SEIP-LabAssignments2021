@@ -35,11 +35,6 @@ public class ArithmeticOperationsTest {
 		ao.multiply(4, -2);
 	}
 
-	@Test
-	public void test_multiply_getY_zero() {
-		thrown.expect(ArithmeticException.class);
-		ao.multiply(4, 0);
-	}
 	
 	@Test
 	public void test_multiply_getX_BigInteger() {
