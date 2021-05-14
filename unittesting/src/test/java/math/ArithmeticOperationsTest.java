@@ -35,6 +35,15 @@ public class ArithmeticOperationsTest {
 		ao.multiply(4, -2);
 	}
 
+	@Test
+	public void test_multiply_x_zero_result() {
+		Assert.assertEquals(0, ao.multiply(0, 7));
+	}
+	
+	@Test
+	public void test_multiply_y_zero_result() {
+		Assert.assertEquals(0, ao.multiply(7, 0));
+	}
 	
 	@Test
 	public void test_multiply_getX_BigInteger() {
