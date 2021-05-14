@@ -31,4 +31,11 @@ public class MyMathTest {
 		mm.isPrime(0);
 	}
 
+	@Test
+	public void test_isPrime_border_exception() {
+		thrown.expect(IllegalArgumentException.class);
+		thrown.expectMessage("number must be >= 2");
+		mm.isPrime(1);
+	}
+
 }
