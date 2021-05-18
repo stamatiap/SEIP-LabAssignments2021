@@ -1,0 +1,19 @@
+language: java
+
+jdk:
+  - openjdk11
+  - oraclejdk11
+
+branches:
+  only:
+  - main
+  - development
+
+before_script:
+  - ls -la
+
+script:
+  - mvn clean package jacoco:report
+
+after_success:
+  - echo "Process terminated successfully"

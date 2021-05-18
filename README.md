@@ -1,5 +1,11 @@
 # SEIP-LabAssignments2021
+[![Build Status](https://travis-ci.com/stamatiap/SEIP-LabAssignments2021.svg?token=2aqzPpqSCXqq4PD3axyN&branch=development)](https://travis-ci.com/stamatiap/SEIP-LabAssignments2021)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
 This repository was created to store all the lab assignments for the Software Engineering in Practice class.
+### Projects
+- [Grades Histogram Project](gradeshistogram/)
+- [Unit Testing Project](unittesting/)
 
 ## Prerequisites
 
@@ -22,5 +28,5 @@ This repository was created to store all the lab assignments for the Software En
 
 ## License
 
-This project is licensed under the [MIT License](LICENSE.md) - see the [LICENSE.md](LICENSE.md) file for details.
+This project is licensed under the [MIT License](LICENSE) - see the [LICENSE](LICENSE) file for details.
 	

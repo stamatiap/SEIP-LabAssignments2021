@@ -8,5 +8,32 @@
   <description>lab assignments for SEIP class</description>
   <modules>
   	<module>gradeshistogram</module>
+    <module>unittesting</module>
   </modules>
+  <dependencies>
+  	<!-- https://mvnrepository.com/artifact/org.mockito/mockito-core -->
+	<dependency>
+	    <groupId>org.mockito</groupId>
+	    <artifactId>mockito-core</artifactId>
+	    <version>3.9.0</version>
+	    <scope>test</scope>
+	</dependency>
+  </dependencies>
+  <build>
+	  <plugins>
+		  <plugin>
+			  <groupId>org.jacoco</groupId>
+			  <artifactId>jacoco-maven-plugin</artifactId>
+			  <version>0.8.6</version>
+			  <executions>
+				  <execution>
+					  <id>prepare-agent</id>
+					  <goals>
+					 	  <goal>prepare-agent</goal>
+					  </goals>
+				  </execution>
+			  </executions>
+		  </plugin>
+	  </plugins>
+  </build>
 </project>
