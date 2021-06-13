@@ -7,7 +7,7 @@ Functionality: reads a Java source code file that is stored locally or on the we
 - [Mockito](https://site.mockito.org/)
 
 ## Design Patterns applied
-- Strategy- this pattern was used in these classes:
+- Strategy - this pattern was used in these classes:
 	- SourceFileReader: used in order to separate and isolate SourceFileReader's functions into separate classes for each File Reader (LocalFileReader and WebFileReader)
 	interface : SourceFileReader
 	strategies : LocalFileReader, WebFileReader
