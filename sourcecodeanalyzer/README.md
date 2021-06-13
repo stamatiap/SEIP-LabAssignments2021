@@ -44,10 +44,10 @@ You can build and execute the system in your local repository with the following
 mvn install
 java –jar “jar-with-dependencies” arg0 arg1 arg2 arg3 arg4
 ```
-where,
-arg0 = “JavaSourceCodeInputFile” (e.g., src/test/resources/TestClass.java)
-arg1 = “sourceCodeAnalyzerType” [regex|strcomp]
-arg2 = “SourceCodeLocationType” [local|web]
-arg3 = “OutputFilePath” (e.g., ../output_metrics_file)
-arg4 = “OutputFileType” [csv|json]
+where,  
+arg0 = “JavaSourceCodeInputFile” (e.g., src/test/resources/TestClass.java)  
+arg1 = “sourceCodeAnalyzerType” [regex|strcomp]  
+arg2 = “SourceCodeLocationType” [local|web]  
+arg3 = “OutputFilePath” (e.g., ../output_metrics_file)  
+arg4 = “OutputFileType” [csv|json]  
 
