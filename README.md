@@ -6,6 +6,7 @@ This repository was created to store all the lab assignments for the Software En
 ### Projects
 - [Grades Histogram Project](gradeshistogram/)
 - [Unit Testing Project](unittesting/)
+- [Source Code Analyzer](sourcecodeanalyzer/)
 
 ## Prerequisites
 
